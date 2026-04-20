@@ -1,4 +1,4 @@
-def show_result(result):
+def show_result(eat, bite):
     print (f"EAT:{eat}, BITE:{bite}")
 
 def show_message(msg):
