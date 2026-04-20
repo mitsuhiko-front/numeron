@@ -7,3 +7,5 @@ def validate_input(user_input):
     
     if len(set(user_input)) != 3:
         return False, "重複した数字は使えません"
+    
+    return True, ""
